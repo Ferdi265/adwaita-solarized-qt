@@ -1,14 +1,12 @@
 // When color definition differs for dark and light variant
 // it gets @if ed depending on $variant
 
-$base_color: if($variant == 'light', #fdf6e3, #073642);
+$base_color: if($variant == 'light', #eee8d5, #073642);
 $text_color: if($variant == 'light', #073642, #eee8d5);
-$bg_color: if($variant == 'light', #eee8d5, #002b36);
+$bg_color: if($variant == 'light', #f2ede0, #002b36);
 $fg_color: if($variant == 'light', #586e75, #dcdcdc);
 
-//$selected_fg_color: #fdf6e3;
-//$selected_bg_color: if($variant == 'light', #3584e4, darken(#3584e4, 20%));
-$selected_fg_color: #fdf6e3;
+$selected_fg_color: #eee8d5;
 $selected_bg_color: #859900;
 $selected_borders_color: if($variant== 'light', darken($selected_bg_color, 15%), darken($selected_bg_color, 30%));
 $borders_color: if($variant == 'light', darken($bg_color, 18%), darken($bg_color, 10%));
