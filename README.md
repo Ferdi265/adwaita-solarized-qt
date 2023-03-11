@@ -1,3 +1,24 @@
+adwaita-solarized-qt
+====================
+
+adwaita-solarized-qt is a fork of [adwaita-qt][adw-qt] with a focus on the
+[solarized][solarized] color scheme.
+
+It is recommended to be used together with the GTK3 and GTK4 styles from
+[adw-gtk3][adw-gtk3] and the [solarized][adw-colors-solarized] colors from
+[adw-colors][adw-colors]. For GTK2 there is no perfect option, but my
+discontinued [numix-solarized][numix-solarized] is an okay stand-in until GTK2
+dies or an adw-gtk2 theme is made.
+
+[solarized]: https://ethanschoonover.com/solarized/
+[adw-qt]: https://github.com/FedoraQt/adwaita-qt
+[adw-gtk3]: https://github.com/lassekongo83/adw-gtk3
+[adw-colors]: https://github.com/lassekongo83/adw-colors
+[adw-colors-solarized]: https://github.com/lassekongo83/adw-colors/blob/main/themes/solarized/gtk.css
+[numix-solarized]: https://github.com/Ferdi265/numix-solarized-gtk-theme
+
+Original README below:
+
 adwaita-qt
 ==========
 
