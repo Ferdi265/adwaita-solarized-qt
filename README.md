@@ -10,6 +10,9 @@ It is recommended to be used together with the GTK3 and GTK4 styles from
 discontinued [numix-solarized][numix-solarized] is an okay stand-in until GTK2
 dies or an adw-gtk2 theme is made.
 
+Upstream is no longer maintained, but this fork will continue to exist as long
+as it's feasible for me to keep compatible with Qt.
+
 [solarized]: https://ethanschoonover.com/solarized/
 [adw-qt]: https://github.com/FedoraQt/adwaita-qt
 [adw-gtk3]: https://github.com/lassekongo83/adw-gtk3
